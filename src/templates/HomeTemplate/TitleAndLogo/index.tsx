@@ -1,5 +1,6 @@
 import { Stack, Typography } from '@mui/material'
 
+import { ItalicTitleCustom } from 'components/ItalicTitleCustom'
 import { TypewriterWithLabelBefore } from 'components/TypewriterWithLabelBefore'
 const astronautLogo = require('global/imgs/astronaut-logo.png')
 
@@ -11,15 +12,13 @@ export function TitleAndLogo() {
       alignItems="center"
     >
       <Stack>
-        <Typography lineHeight={1.7} variant="h1">
-          Hello there!
-        </Typography>
-        <Typography lineHeight={0.5} variant="h2">
+        <ItalicTitleCustom title="Hello there!" />
+        <Typography lineHeight={{ md: 0.5, sm: 1 }} variant="h2">
           I am João Vitor Santin
         </Typography>
         <TypewriterWithLabelBefore
           labelBefore="a simple"
-          words={['chef?', 'engineer?', 'developer?']}
+          words={['chef?', 'developer?', 'engineer?']}
         />
       </Stack>
       <img style={{ height: '500px' }} src={astronautLogo} alt="logo" />

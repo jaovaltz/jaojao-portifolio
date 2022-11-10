@@ -1,24 +1,21 @@
 import { Container, Stack, Typography } from '@mui/material'
 
+import { AnchorNoReferrer } from 'components/AnchorNoreferrer'
+import { ItalicTitleCustom } from 'components/ItalicTitleCustom'
 import { ProjectSummaryCustom } from 'components/ProjectSummaryCustom'
+
 import { projectsSummaryData } from './data'
 
-export function ProjectsSummary() {
+export function ProjectsTemplate() {
   return (
-    <Stack alignItems="center" paddingTop="150px" spacing={7}>
+    <Stack alignItems="center" spacing={21}>
       <Stack spacing={-0.5}>
-        <Typography variant="h2" fontSize={36}>
-          Some projects that i made...
-        </Typography>
-        <Typography>
+        <ItalicTitleCustom title="Projects" />
+        <Typography fontSize={14}>
           You can check all the codes on my github profile{' '}
-          <a
-            href="https://github.com/jaovaltz?tab=repositories"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <AnchorNoReferrer href="https://github.com/jaovaltz?tab=repositories">
             clicking here
-          </a>
+          </AnchorNoReferrer>
         </Typography>
       </Stack>
       <Container>

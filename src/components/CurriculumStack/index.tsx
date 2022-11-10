@@ -11,7 +11,7 @@ export function CurriculumStack({ children, ...props }: CurriculumStackType) {
       alignItems="center"
       bgcolor="white"
       borderRadius={5}
-      padding="50px"
+      padding="40px"
       spacing={5}
     >
       {children}

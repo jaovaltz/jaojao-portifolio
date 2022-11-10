@@ -1,4 +1,4 @@
-import { Container, Stack, Typography } from '@mui/material'
+import { Container, Stack } from '@mui/material'
 
 import { AboutMe } from './AboutMe'
 import { EnteredJobs } from './EnteredJobs'
@@ -6,33 +6,25 @@ import { EducationAbout } from './EducationAbout'
 import { DownloadCV } from './DownloadCV'
 import { CurriculumStack } from 'components/CurriculumStack'
 
+import { TitleWithSubtitleBordered } from 'components/TitleWithSubtitleBordered'
+
 export function CurriculumTemplate() {
   return (
     <Container maxWidth="md">
       <CurriculumStack>
         <Stack>
-          <Typography fontSize={50} variant="h1" color="black">
-            João Vitor Santin Valduga
-          </Typography>
-          <Stack border="2px black solid">
-            <Typography
-              fontSize={32}
-              variant="h2"
-              color="purple"
-              padding="10px"
-              textAlign="center"
-            >
-              Computer science student
-            </Typography>
-          </Stack>
+          <TitleWithSubtitleBordered
+            title="João Vitor Santin Valduga"
+            subtitle="Computer science student"
+          />
         </Stack>
         <Stack spacing={2}>
           <AboutMe />
           <EducationAbout />
           <EnteredJobs />
+          <DownloadCV />
         </Stack>
       </CurriculumStack>
-      <DownloadCV />
     </Container>
   )
 }

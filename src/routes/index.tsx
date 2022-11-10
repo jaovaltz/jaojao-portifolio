@@ -2,6 +2,7 @@ import { Routes, Route, HashRouter } from 'react-router-dom'
 
 import { HomePage } from 'pages/HomePage'
 import { CurriculumPage } from 'pages/CurriculumPage'
+import { ProjectsPage } from 'pages/ProjectsPage'
 
 import { InfinitelySpaceBackground } from 'components/InfinitelySpaceBackground'
 import { NavbarCustom } from 'components/NavbarCustom'
@@ -15,7 +16,8 @@ export function Router() {
         <NavbarCustom />
         <Routes>
           <Route index path="/" element={<HomePage />} />
-          <Route index path="/curriculum" element={<CurriculumPage />} />
+          <Route index path="/projects" element={<ProjectsPage />} />
+          <Route index path="/cv" element={<CurriculumPage />} />
         </Routes>
         <InfinitelySpaceBackground />
       </HashRouter>

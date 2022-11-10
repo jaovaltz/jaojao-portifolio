@@ -13,7 +13,7 @@ export function LinkTypographyCustom({
 }: LinkCustomType) {
   return (
     <Link to={to} style={{ textDecoration: 'none', color: '#ffffff' }}>
-      <Typography variant="h1" fontSize="22px" {...props}>
+      <Typography variant="h1" fontSize="32px" {...props}>
         {children}
       </Typography>
     </Link>
