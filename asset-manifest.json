@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jaojao-portifolio/static/css/main.4e956064.css",
+    "main.js": "/jaojao-portifolio/static/js/main.9e6686aa.js",
+    "static/media/finances.gif": "/jaojao-portifolio/static/media/finances.77487c7449651b6daa00.gif",
+    "static/media/astronaut-logo.png": "/jaojao-portifolio/static/media/astronaut-logo.71a8c6c7a006e38039d7.png",
+    "static/media/chat.gif": "/jaojao-portifolio/static/media/chat.17ac585d2497966a8609.gif",
+    "static/media/Inter-Bold.ttf": "/jaojao-portifolio/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/jaojao-portifolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/todo-list.gif": "/jaojao-portifolio/static/media/todo-list.2b9f610fdb6120821b7e.gif",
+    "static/media/SoleilBook.otf": "/jaojao-portifolio/static/media/SoleilBook.e4b0cec43172a823f967.otf",
+    "static/media/SoleilLight.otf": "/jaojao-portifolio/static/media/SoleilLight.1c5388e0cd884a8a646b.otf",
+    "static/media/SoleilRegular.otf": "/jaojao-portifolio/static/media/SoleilRegular.7b4014cc3c8e6f5e790a.otf",
+    "static/media/SoleilBold.otf": "/jaojao-portifolio/static/media/SoleilBold.9970901eb3d82bab442c.otf",
+    "static/media/curriculum.pdf": "/jaojao-portifolio/static/media/curriculum.6688c5e97c889efc45d9.pdf",
+    "index.html": "/jaojao-portifolio/index.html",
+    "main.4e956064.css.map": "/jaojao-portifolio/static/css/main.4e956064.css.map",
+    "main.9e6686aa.js.map": "/jaojao-portifolio/static/js/main.9e6686aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e956064.css",
+    "static/js/main.9e6686aa.js"
+  ]
+}
