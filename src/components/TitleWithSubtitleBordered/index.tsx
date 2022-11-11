@@ -14,7 +14,7 @@ export function TitleWithSubtitleBordered({
       <Typography fontSize={50} variant="h1" color="black">
         {title}
       </Typography>
-      <Stack border="2px black solid">
+      <Stack border="2px black solid" borderRadius={5}>
         <Typography
           fontSize={32}
           variant="h2"
