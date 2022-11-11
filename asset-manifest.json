@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jaojao-portifolio/static/css/main.4e956064.css",
-    "main.js": "/jaojao-portifolio/static/js/main.310508af.js",
+    "main.js": "/jaojao-portifolio/static/js/main.57920737.js",
     "static/media/finances.gif": "/jaojao-portifolio/static/media/finances.77487c7449651b6daa00.gif",
     "static/media/astronaut-logo.png": "/jaojao-portifolio/static/media/astronaut-logo.71a8c6c7a006e38039d7.png",
     "static/media/chat.gif": "/jaojao-portifolio/static/media/chat.17ac585d2497966a8609.gif",
@@ -15,10 +15,10 @@
     "static/media/curriculum.pdf": "/jaojao-portifolio/static/media/curriculum.6688c5e97c889efc45d9.pdf",
     "index.html": "/jaojao-portifolio/index.html",
     "main.4e956064.css.map": "/jaojao-portifolio/static/css/main.4e956064.css.map",
-    "main.310508af.js.map": "/jaojao-portifolio/static/js/main.310508af.js.map"
+    "main.57920737.js.map": "/jaojao-portifolio/static/js/main.57920737.js.map"
   },
   "entrypoints": [
     "static/css/main.4e956064.css",
-    "static/js/main.310508af.js"
+    "static/js/main.57920737.js"
   ]
 }
